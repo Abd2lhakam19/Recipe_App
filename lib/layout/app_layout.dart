@@ -1,7 +1,7 @@
-import 'package:cooking_app/custom_bottom_nav_bar.dart';
 import 'package:cooking_app/features/inspiration/ui/inspiration_screen.dart';
 import 'package:cooking_app/features/recipes/ui/recipes_screen.dart';
 import 'package:cooking_app/features/settings/ui/settings_screen.dart';
+import 'package:cooking_app/layout/custom_bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 
 class AppLayout extends StatefulWidget {
