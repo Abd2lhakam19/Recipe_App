@@ -7,5 +7,13 @@ class AppString {
       letsStart = "Let's start",
       inspiration = "Inspiration",
       recipes = "My recipes",
-      settings = "Settings";
+      settings = "Settings",
+      recipe = "Recipe\n",
+      ofTheDay = "of the day",
+      cook = "Cook\n",
+      likrPro = 'like pro',
+      check = "Check\n",
+      newUpdates = "new updates",
+      reneRedzwpi = "René Redzepi\n",
+      recommendsYou = "recommends you";
 }

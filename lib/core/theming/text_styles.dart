@@ -23,5 +23,26 @@ class TextStyles {
       font8SemiBoldBrown = TextStyle(
           fontSize: 8.sp,
           fontWeight: FontWeightHelper.semiBold,
-          color: AppColors.brownColor);
+          color: AppColors.brownColor),
+      font32SemiBoldBrown = TextStyle(
+          fontSize: 32.sp,
+          fontWeight: FontWeightHelper.semiBold,
+          color: AppColors.brownColor),
+      font32ExtraLightBrown = TextStyle(
+          fontSize: 32.sp,
+          fontWeight: FontWeightHelper.extraLight,
+          color: AppColors.brownColor),
+      font16MeduimBrown = TextStyle(
+          fontSize: 16.sp,
+          fontWeight: FontWeightHelper.medium,
+          color: AppColors.brownColor),
+      font16LightBrown = TextStyle(
+          fontSize: 16.sp,
+          fontWeight: FontWeightHelper.light,
+          color: AppColors.brownColor),
+      font14LightBrown = TextStyle(
+        fontSize: 14.sp,
+        fontWeight: FontWeightHelper.light,
+        color: AppColors.brownColor.withOpacity(0.4),
+      );
 }

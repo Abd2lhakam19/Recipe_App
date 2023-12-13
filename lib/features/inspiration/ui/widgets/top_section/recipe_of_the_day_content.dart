@@ -1,7 +1,6 @@
 import 'package:cooking_app/core/helper/app_assets.dart';
-import 'package:cooking_app/core/theming/app_colors.dart';
+import 'package:cooking_app/core/theming/text_styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 
 class RecipeOfTheDayContent extends StatelessWidget {
@@ -14,10 +13,7 @@ class RecipeOfTheDayContent extends StatelessWidget {
       children: [
         Text(
           "Roasted Pumbkin Soup",
-          style: TextStyle(
-              fontSize: 16.sp,
-              fontWeight: FontWeight.w500,
-              color: AppColors.brownColor),
+          style: TextStyles.font16MeduimBrown,
         ),
         const Gap(5),
         Row(
@@ -29,10 +25,7 @@ class RecipeOfTheDayContent extends StatelessWidget {
             const Gap(5),
             Text(
               "50 min",
-              style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w300,
-                  color: AppColors.brownColor.withOpacity(0.4)),
+              style: TextStyles.font14LightBrown,
             ),
             const Gap(12),
             const ImageIcon(
@@ -42,10 +35,7 @@ class RecipeOfTheDayContent extends StatelessWidget {
             const Gap(5),
             Text(
               "4 ppl",
-              style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w300,
-                  color: AppColors.brownColor.withOpacity(0.4)),
+              style: TextStyles.font14LightBrown,
             ),
           ],
         ),
