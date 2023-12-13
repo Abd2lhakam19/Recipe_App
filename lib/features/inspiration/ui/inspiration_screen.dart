@@ -1,6 +1,8 @@
 import 'package:cooking_app/core/helper/app_assets.dart';
 import 'package:cooking_app/core/helper/app_strings.dart';
 import 'package:cooking_app/core/theming/text_styles.dart';
+import 'package:cooking_app/features/inspiration/ui/widgets/bottom_section.dart';
+import 'package:cooking_app/features/inspiration/ui/widgets/middel_title.dart';
 import 'package:cooking_app/features/inspiration/ui/widgets/top_section.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -30,9 +32,14 @@ class Inspiration extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 15.w),
             child: const Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Gap(20),
                 TopSection(),
+                Gap(64),
+                MiddelTitle(),
+                Gap(15),
+                BottomSection(),
               ],
             ),
           ),

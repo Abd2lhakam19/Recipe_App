@@ -2,7 +2,6 @@ import 'package:cooking_app/core/theming/app_colors.dart';
 import 'package:cooking_app/features/inspiration/ui/widgets/cook_like_pro_title.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
 
 class CookLikeProContent extends StatelessWidget {
   const CookLikeProContent({super.key});

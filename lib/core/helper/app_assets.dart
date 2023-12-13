@@ -8,5 +8,6 @@ class AppAseets {
       search = "assets/images/Search.png",
       clock = "assets/images/Clock.png",
       tableware = "assets/images/Tableware.png",
-      food = "assets/images/food.png";
+      food = "assets/images/food.png",
+      food2 = "assets/images/food2.png";
 }
