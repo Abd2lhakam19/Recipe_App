@@ -1,7 +1,7 @@
-import 'package:cooking_app/features/inspiration/ui/widgets/check_new_updates_content.dart';
-import 'package:cooking_app/features/inspiration/ui/widgets/container_title.dart';
-import 'package:cooking_app/features/inspiration/ui/widgets/cook_like_pro_content.dart';
-import 'package:cooking_app/features/inspiration/ui/widgets/recipe_of_the_day_content.dart';
+import 'package:cooking_app/features/inspiration/ui/widgets/top_section/check_new_updates_content.dart';
+import 'package:cooking_app/features/inspiration/ui/widgets/top_section/container_title.dart';
+import 'package:cooking_app/features/inspiration/ui/widgets/top_section/cook_like_pro_content.dart';
+import 'package:cooking_app/features/inspiration/ui/widgets/top_section/recipe_of_the_day_content.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';

@@ -1,5 +1,6 @@
 import 'package:cooking_app/core/helper/app_assets.dart';
 import 'package:cooking_app/core/theming/app_colors.dart';
+import 'package:cooking_app/core/theming/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
@@ -32,10 +33,7 @@ class BottomSection extends StatelessWidget {
           const Gap(15),
           Text(
             "Spice lovers will slurp up this soup in seconds. Featuring chili powder, smoked paprika, and cayenne pepper, every bowl brings the heat.",
-            style: TextStyle(
-                fontSize: 16.sp,
-                fontWeight: FontWeight.w300,
-                color: AppColors.brownColor),
+            style: TextStyles.font16LightBrown,
           ),
           const Gap(30),
           Row(
@@ -47,10 +45,7 @@ class BottomSection extends StatelessWidget {
               const Gap(5),
               Text(
                 "50 min",
-                style: TextStyle(
-                    fontSize: 14.sp,
-                    fontWeight: FontWeight.w300,
-                    color: AppColors.brownColor.withOpacity(0.4)),
+                style: TextStyles.font14LightBrown,
               ),
               const Gap(12),
               const ImageIcon(
@@ -60,10 +55,7 @@ class BottomSection extends StatelessWidget {
               const Gap(5),
               Text(
                 "4 ppl",
-                style: TextStyle(
-                    fontSize: 14.sp,
-                    fontWeight: FontWeight.w300,
-                    color: AppColors.brownColor.withOpacity(0.4)),
+                style: TextStyles.font14LightBrown,
               ),
             ],
           )
