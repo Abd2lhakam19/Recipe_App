@@ -5,5 +5,8 @@ class AppAseets {
       todoList = "assets/images/Todo List.png",
       ideaLight = "assets/images/Idea_light.png",
       todoListLight = "assets/images/todo_list_light.png",
-      search = "assets/images/Search.png";
+      search = "assets/images/Search.png",
+      clock = "assets/images/Clock.png",
+      tableware = "assets/images/Tableware.png",
+      food = "assets/images/food.png";
 }

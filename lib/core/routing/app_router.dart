@@ -1,6 +1,6 @@
-import 'package:cooking_app/app_layout.dart';
 import 'package:cooking_app/core/routing/routes.dart';
 import 'package:cooking_app/features/onBoarding/ui/on_boarding_screen.dart';
+import 'package:cooking_app/layout/app_layout.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
