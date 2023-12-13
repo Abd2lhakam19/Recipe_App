@@ -4,5 +4,8 @@ class AppString {
       at = "Ⓡ ",
       cookingOn = "Cooking on Thermomix",
       madeEasy = "made easy",
-      letsStart = "Let's start";
+      letsStart = "Let's start",
+      inspiration = "Inspiration",
+      recipes = "My recipes",
+      settings = "Settings";
 }

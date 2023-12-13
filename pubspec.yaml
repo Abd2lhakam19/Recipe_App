@@ -41,6 +41,8 @@ dependencies:
   gap: ^3.0.1
   # A flutter plugin for adapting screen and font size.Guaranteed to look good on different models
   flutter_screenutil: ^5.9.0
+  # Beautiful animations inspired on Animate.css, every animation is a customizable widget.
+  animate_do: ^3.1.2  
 
 dev_dependencies:
   flutter_test:
@@ -66,7 +68,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/svgImages/
+    - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -1,3 +1,4 @@
+import 'package:animate_do/animate_do.dart';
 import 'package:cooking_app/core/helper/app_assets.dart';
 import 'package:cooking_app/core/helper/app_strings.dart';
 import 'package:cooking_app/core/theming/text_styles.dart';
@@ -13,7 +14,10 @@ class LogoSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SvgPicture.asset(AppAseets.onBoarding),
+        ShakeX(
+            infinite: true,
+            duration: const Duration(seconds: 2),
+            child: SvgPicture.asset(AppAseets.onBoarding)),
         const Gap(50),
         Text(
           AppString.allTheResipes,

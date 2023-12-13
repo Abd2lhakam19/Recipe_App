@@ -13,8 +13,6 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0.0,
         automaticallyImplyLeading: false,
         title: Text(
           AppString.cooksy,
@@ -25,7 +23,7 @@ class OnBoardingScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 30.w, vertical: 100.h),
-          child: Column(
+          child: const Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               LogoSection(),

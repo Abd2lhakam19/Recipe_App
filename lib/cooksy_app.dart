@@ -15,7 +15,11 @@ class CooksyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         initialRoute: Routes.onBoarding,
-        theme: ThemeData(scaffoldBackgroundColor: AppColors.darkWhite),
+        theme: ThemeData(
+            scaffoldBackgroundColor: AppColors.darkWhite,
+            appBarTheme: const AppBarTheme(
+              backgroundColor: Colors.transparent,
+            )),
         onGenerateRoute: appRouter.generateRoute,
       ),
     );
