@@ -16,7 +16,6 @@ class CookLikeProContent extends StatelessWidget {
         Text(
           "Thermomix advanced\ntips and tricks",
           style: TextStyles.font16MeduimBrown,
-          // textAlign: TextAlign.start,
         )
       ],
     );
