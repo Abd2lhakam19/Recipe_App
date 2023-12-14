@@ -24,13 +24,15 @@ class TopSection extends StatelessWidget {
             ),
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 25.w, vertical: 25.h),
-              child: const Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  ContainerTitle(),
-                  Gap(25),
-                  RecipeOfTheDayContent(),
-                ],
+              child: const SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    ContainerTitle(),
+                    Gap(25),
+                    RecipeOfTheDayContent(),
+                  ],
+                ),
               ),
             ),
           ),
