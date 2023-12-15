@@ -1,12 +1,13 @@
 import 'package:cooking_app/core/helper/app_assets.dart';
 import 'package:cooking_app/core/theming/text_styles.dart';
+import 'package:cooking_app/features/recipes/data/models/resipe_response.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 
 class RecipeItem extends StatelessWidget {
-  const RecipeItem({super.key});
-
+  const RecipeItem({super.key, required this.data});
+  final Data data;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -18,16 +19,20 @@ class RecipeItem extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset(
-            AppAseets.food,
+          Image.network(
+            data.image!,
             fit: BoxFit.cover,
           ),
           const Gap(10),
           Text(
-            "Veggie breakfast",
-            style: TextStyles.font16MeduimBrown,
+            data.name!,
+            style: TextStyles.font16MeduimBrown.copyWith(
+              fontSize: 14.sp,
+            ),
+            maxLines: 1,
+            overflow: TextOverflow.clip,
           ),
-          const Gap(20),
+          const Gap(14),
           Row(
             children: [
               const ImageIcon(
@@ -36,8 +41,10 @@ class RecipeItem extends StatelessWidget {
               ),
               const Gap(5),
               Text(
-                "5 min",
-                style: TextStyles.font14LightBrown,
+                "${data.time} min",
+                style: TextStyles.font14LightBrown.copyWith(
+                  fontSize: 10.sp,
+                ),
               ),
               const Gap(20),
               const ImageIcon(
@@ -46,8 +53,10 @@ class RecipeItem extends StatelessWidget {
               ),
               const Gap(5),
               Text(
-                "4 ppl",
-                style: TextStyles.font14LightBrown,
+                "${data.steps} ppl",
+                style: TextStyles.font14LightBrown.copyWith(
+                  fontSize: 10.sp,
+                ),
               ),
             ],
           )
