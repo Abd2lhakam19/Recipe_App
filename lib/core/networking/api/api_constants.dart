@@ -1,4 +1,5 @@
 class ApiConstants {
   static const String baseUrl = "cooksy.onrender.com",
-      randEndPoint = "/recipe/rand";
+      randEndPoint = "/recipe/rand",
+      recipesEndPoint = "/recipe";
 }
