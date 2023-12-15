@@ -5,7 +5,6 @@ import 'package:cooking_app/features/inspiration/cubit/inspiration_cubit.dart';
 import 'package:cooking_app/features/inspiration/cubit/inspiration_states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 
 class RecipeOfTheDayContent extends StatefulWidget {
