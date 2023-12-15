@@ -15,5 +15,6 @@ class AppString {
       check = "Check\n",
       newUpdates = "new updates",
       reneRedzwpi = "René Redzepi\n",
-      recommendsYou = "recommends you";
+      recommendsYou = "recommends you",
+      myRecipes = "My recipes";
 }

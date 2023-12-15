@@ -44,5 +44,9 @@ class TextStyles {
         fontSize: 14.sp,
         fontWeight: FontWeightHelper.light,
         color: AppColors.brownColor.withOpacity(0.4),
-      );
+      ),
+      font18SemiBoldBrown = TextStyle(
+          fontSize: 18.sp,
+          fontWeight: FontWeightHelper.semiBold,
+          color: AppColors.brownColor);
 }
