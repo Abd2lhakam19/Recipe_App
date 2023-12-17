@@ -1,4 +1,4 @@
-import 'package:cooking_app/features/recipes/data/models/resipe_response.dart';
+import 'package:cooking_app/features/recipes/data/models/recipe_response.dart';
 
 sealed class RecipesStates {}
 

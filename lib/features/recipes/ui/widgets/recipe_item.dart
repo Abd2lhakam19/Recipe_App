@@ -1,7 +1,7 @@
 import 'package:cooking_app/core/helper/app_assets.dart';
 import 'package:cooking_app/core/routing/routes.dart';
 import 'package:cooking_app/core/theming/text_styles.dart';
-import 'package:cooking_app/features/recipes/data/models/resipe_response.dart';
+import 'package:cooking_app/features/recipes/data/models/recipe_response.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';

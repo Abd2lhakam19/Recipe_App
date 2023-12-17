@@ -16,5 +16,8 @@ class AppString {
       newUpdates = "new updates",
       reneRedzwpi = "René Redzepi\n",
       recommendsYou = "recommends you",
-      myRecipes = "My recipes";
+      myRecipes = "My recipes",
+      showIngredients = "Show Ingredients",
+      letsCook = "Let's Cook",
+      cansel = "Cansel";
 }
