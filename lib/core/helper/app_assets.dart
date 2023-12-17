@@ -9,5 +9,6 @@ class AppAseets {
       clock = "assets/images/Clock.png",
       tableware = "assets/images/Tableware.png",
       food = "assets/images/food.png",
-      food2 = "assets/images/food2.png";
+      food2 = "assets/images/food2.png",
+      arrowBackIcon = "assets/images/ArrowBackIcon.png";
 }
