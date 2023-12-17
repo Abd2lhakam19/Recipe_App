@@ -1,6 +1,6 @@
 import 'package:cooking_app/core/routing/routes.dart';
 import 'package:cooking_app/features/onBoarding/ui/on_boarding_screen.dart';
-import 'package:cooking_app/features/recipes/data/models/resipe_response.dart';
+import 'package:cooking_app/features/recipes/data/models/recipe_response.dart';
 import 'package:cooking_app/features/recipes/ui/widgets/screens/recipeDetailsScreen/recipe_details_screen.dart';
 import 'package:cooking_app/layout/app_layout.dart';
 import 'package:flutter/material.dart';

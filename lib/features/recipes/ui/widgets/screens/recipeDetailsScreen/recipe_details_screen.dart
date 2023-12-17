@@ -1,9 +1,10 @@
 import 'package:cooking_app/core/helper/app_assets.dart';
+import 'package:cooking_app/core/helper/app_strings.dart';
 import 'package:cooking_app/core/theming/app_colors.dart';
 import 'package:cooking_app/core/theming/text_styles.dart';
 import 'package:cooking_app/core/widgets/button_widget.dart';
-import 'package:cooking_app/features/recipes/data/models/resipe_response.dart';
-import 'package:cooking_app/features/recipes/ui/widgets/screens/recipeDetailsScreen/widgets/ingredient_section.dart';
+import 'package:cooking_app/features/recipes/data/models/recipe_response.dart';
+import 'package:cooking_app/features/recipes/ui/widgets/screens/recipeDetailsScreen/widgets/ingredient_daialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
@@ -54,17 +55,26 @@ class RecipeDetailsScreen extends StatelessWidget {
               Text(
                 data!.description!,
                 style: TextStyles.font17RegularBrown.copyWith(fontSize: 16.sp),
-                textAlign: TextAlign.center,
+                textAlign: TextAlign.start,
               ),
               const Gap(40),
               ButtonWidget(
-                onPressed: () {},
-                text: "Show Ingredients",
+                onPressed: () {
+                  showDialog(
+                    context: context,
+                    builder: (context) {
+                      return IngredientDialog(
+                        recipeId: data!.id!,
+                      );
+                    },
+                  );
+                },
+                text: AppString.showIngredients,
               ),
               const Gap(15),
               ButtonWidget(
                 onPressed: () {},
-                text: "Let's Cook",
+                text: AppString.letsCook,
               )
             ],
           ),
